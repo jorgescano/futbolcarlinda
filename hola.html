@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap.min.css" />
+    <link rel="stylesheet" href="libraries/fontawesome/all.css" />
+    <link rel="stylesheet" href="dark.css" />
+    <title>Carlinderos</title>
+</head>
+
+<body class="text-center">
+
+    <div id="body-players"></div>
+
+    <!-- JavaScript -->
+    <script src="libraries/jquery-3.5.1.min.js"></script>
+    <script src="libraries/popper.min.js"></script>
+    <script src="libraries/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(jsonResponse => {
+                    jsonResponse.Players.forEach((v, i, a) => {
+                        $("#body-players").append(
+                            "<span style='color: gray;'>" +
+                            v.Name
+                            + " | Goals: " + v.Goals
+                            + " | Assists: " + v.Assists
+                            + " | Wins: " + v.Wins
+                            + " | Draws: " + v.Draws
+                            + " | Defeats: " + v.Defeats
+                            + " | MVPs: " + v.MVPs
+                            + "</span>"
+                        );
+                        $("#body-players").append("<br>");
+                        jsonResponse.Matches.forEach((match, i, a) => {
+                            match.Players.forEach((player, i, a) => {
+                                if (player.Id == v.Id) {
+                                    v.Goals = v.Goals - player.Goals;
+                                    v.Assists = v.Assists - player.Assists;
+                                    var winner = match.LocalScore > match.AwayScore ? "local" : "away";
+                                    if (player.Team == winner) {
+                                        v.Wins = v.Wins - 1;
+                                    } else {
+                                        v.Defeats = v.Defeats - 1;
+                                    }
+                                    if (player.MVP == true) {
+                                        v.MVPs = v.MVPs - 1;
+                                    }
+                                }
+                            });
+                        });
+                        $("#body-players").append(v.Name
+                            + " | Goals: " + v.Goals
+                            + " | Assists: " + v.Assists
+                            + " | Wins: " + v.Wins
+                            + " | Draws: " + v.Draws
+                            + " | Defeats: " + v.Defeats
+                            + " | MVPs: " + v.MVPs
+                        );
+                        $("#body-players").append("<br>");
+                        $("#body-players").append("------------------------------------------------------------------------------------------------------");
+                        $("#body-players").append("<br>");
+                    });
+
+                    var matches = [];
+                    jsonResponse.Matches.forEach((match, i, a) => {
+                        match.LocalPlayers = [];
+                        match.AwayPlayers = [];
+                        match.Players.forEach((player, i, a) => {
+                            var mvp = player.MVP;
+                            var team = player.Team;
+                            delete player.MVP;
+                            delete player.Team;
+                            if (mvp == true) {
+                                match.MVP = player.Id;
+                            }
+                            if (team == "local") {
+                                match.LocalPlayers.push(player);
+                            } else {
+                                match.AwayPlayers.push(player);
+                            }
+                        });
+                        delete match.Players;
+
+                        matches.push({
+                            "Id": match.Id,
+                            "Date": match.Date,
+                            "MVP": match.MVP,
+                            "Local": match.Local,
+                            "Away": match.Away,
+                            "LocalScore": match.LocalScore,
+                            "AwayScore": match.AwayScore,
+                            "LocalPlayers": match.LocalPlayers,
+                            "AwayPlayers": match.AwayPlayers,
+                        });
+                    });
+
+                    console.log(jsonResponse);
+
+                    var a = document.createElement("a");
+                    var file = new Blob([JSON.stringify(jsonResponse.Players, null, 4)], { type: "application/json" });
+                    a.href = URL.createObjectURL(file);
+                    a.download = "players.json";
+                    a.click();
+
+                })
+                .catch((error) => { console.log("Error loading database", error); });
+        });
+    </script>
+</body>
+
+</html>

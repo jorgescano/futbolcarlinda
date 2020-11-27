@@ -1,0 +1,209 @@
+/* Common Styles CSS */
+
+body {
+    padding-bottom: 2.5rem;
+}
+
+#body-players {
+    padding-top: 4.5rem;
+}
+
+#body-matches, #body-edit {
+    padding-top: 1rem;
+}
+
+#body-players, #body-matches {
+    max-width: 700px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* #region NavBar */
+
+.navbar {
+    padding: .75rem;
+    background-color: #fafafa !important;
+    color: #343a40 !important;
+}
+
+.navbar .navbar-brand {
+    cursor: default;
+}
+
+.navbar .nav-item {
+    cursor: pointer;
+}
+
+.custom-control-label::before {
+    background-color: #fafafa;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fafafa;
+    border-color: #fafafa;
+    background-color: #343a40;
+}
+
+/* #endregion */
+
+.vertical-align-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.options-scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.options-scroll div {
+    text-align: center;
+    padding: .5rem;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    background-color: rgba(255, 255, 255, .9);
+    user-select: none;
+    cursor: pointer;
+}
+
+.options-scroll div.active {
+    background-color: rgba(52, 59, 64, .9);
+    color: #fafafa;
+}
+
+.card-deck {
+    text-align: initial;
+    margin: 0 !important;
+}
+
+.card-deck-title {
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.card {
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    padding: .5rem !important;
+}
+
+#card-players .card-body {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+#card-players .card {
+    margin-bottom: 1rem !important;
+}
+
+#card-players .card .div-info {
+    float: left;
+    margin: 1.25rem;
+}
+
+#card-players .card .div-stat {
+    float: right;
+    margin: 1.25rem;
+    font-size: 2.5rem;
+    margin-right: 1.25rem;
+    margin-top: 1.3rem;
+}
+
+.square {
+    text-align: center;
+    font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.square.win, .square.draw, .square.defeat, .square.stat {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.square.win {
+    background-color: rgba(40, 167, 69, .1);
+}
+
+.square.draw {
+    background-color: rgba(0, 98, 204, .1);
+}
+
+.square.defeat {
+    background-color: rgba(189, 33, 48, .1);
+}
+
+.square.value {
+    background-color: rgba(0, 0, 0, .1);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: .5rem;
+}
+
+.square.stat {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.square.stat-value {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: .5rem;
+    padding-top: .44rem;
+    padding-bottom: .44rem;
+}
+
+.fa-a:before {
+    font-family: 'Arial';
+    font-size: 1.1rem;
+    font-weight: bold;
+    content: 'A';
+}
+
+.match-title {
+    cursor: pointer;
+}
+
+.team-info {
+    text-align: initial;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.player-name {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-left: .5rem;
+    font-weight: 500;
+}
+
+.red {
+    color: #b71c1c;
+}
+
+.blue {
+    color: #0d47a1;
+}
+
+.btn-primary {
+    filter: saturate(0.5);
+}
