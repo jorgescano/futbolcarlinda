@@ -8,60 +8,18 @@
         "LocalScore": 7,
         "AwayScore": 3,
         "LocalPlayers": [
-            {
-                "Id": 1,
-                "Goals": 5,
-                "Assists": 0
-            },
-            {
-                "Id": 4,
-                "Goals": 0,
-                "Assists": 1
-            },
-            {
-                "Id": 14,
-                "Goals": 0,
-                "Assists": 2
-            },
-            {
-                "Id": 13,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 18,
-                "Goals": 1,
-                "Assists": 0
-            }
+            { "Id": 1, "Goals": 5, "Assists": 0 },
+            { "Id": 4, "Goals": 0, "Assists": 1 },
+            { "Id": 14, "Goals": 0, "Assists": 2 },
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 18, "Goals": 1, "Assists": 0 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 1,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 9,
-                "Goals": 1,
-                "Assists": 0
-            },
-            {
-                "Id": 11,
-                "Goals": 1,
-                "Assists": 1
-            },
-            {
-                "Id": 10,
-                "Goals": 0,
-                "Assists": 1
-            },
-            {
-                "Id": 8,
-                "Goals": 0,
-                "Assists": 0
-            }
+            { "Id": 16, "Goals": 0, "Assists": 1, "Goalkeeper": true },
+            { "Id": 9, "Goals": 1, "Assists": 0 },
+            { "Id": 11, "Goals": 1, "Assists": 1 },
+            { "Id": 10, "Goals": 0, "Assists": 1 },
+            { "Id": 8, "Goals": 0, "Assists": 0 }
         ]
     },
     {
@@ -73,60 +31,18 @@
         "LocalScore": 5,
         "AwayScore": 4,
         "LocalPlayers": [
-            {
-                "Id": 9,
-                "Goals": 3,
-                "Assists": 1
-            },
-            {
-                "Id": 13,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 14,
-                "Goals": 0,
-                "Assists": 1
-            },
-            {
-                "Id": 15,
-                "Goals": 1,
-                "Assists": 1
-            },
-            {
-                "Id": 17,
-                "Goals": 1,
-                "Assists": 1
-            }
+            { "Id": 9, "Goals": 3, "Assists": 1 },
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 14, "Goals": 0, "Assists": 1 },
+            { "Id": 15, "Goals": 1, "Assists": 1 },
+            { "Id": 17, "Goals": 1, "Assists": 1 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 11,
-                "Goals": 0,
-                "Assists": 3
-            },
-            {
-                "Id": 1,
-                "Goals": 1,
-                "Assists": 1
-            },
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 18,
-                "Goals": 1,
-                "Assists": 0
-            },
-            {
-                "Id": 10,
-                "Goals": 2,
-                "Assists": 0
-            }
+            { "Id": 11, "Goals": 0, "Assists": 3 },
+            { "Id": 1, "Goals": 1, "Assists": 1 },
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 18, "Goals": 1, "Assists": 0 },
+            { "Id": 10, "Goals": 2, "Assists": 0 }
         ]
     },
     {
@@ -138,60 +54,18 @@
         "LocalScore": 15,
         "AwayScore": 14,
         "LocalPlayers": [
-            {
-                "Id": 1,
-                "Goals": 5,
-                "Assists": 4
-            },
-            {
-                "Id": 14,
-                "Goals": 1,
-                "Assists": 2
-            },
-            {
-                "Id": 22,
-                "Goals": 6,
-                "Assists": 5
-            },
-            {
-                "Id": 11,
-                "Goals": 3,
-                "Assists": 3
-            },
-            {
-                "Id": 13,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            }
+            { "Id": 1, "Goals": 5, "Assists": 4 },
+            { "Id": 14, "Goals": 1, "Assists": 2 },
+            { "Id": 22, "Goals": 6, "Assists": 5 },
+            { "Id": 11, "Goals": 3, "Assists": 3 },
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true }
         ],
         "AwayPlayers": [
-            {
-                "Id": 15,
-                "Goals": 4,
-                "Assists": 1
-            },
-            {
-                "Id": 16,
-                "Goals": 1,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 10,
-                "Goals": 0,
-                "Assists": 1
-            },
-            {
-                "Id": 2,
-                "Goals": 2,
-                "Assists": 0
-            },
-            {
-                "Id": 6,
-                "Goals": 7,
-                "Assists": 0
-            }
+            { "Id": 15, "Goals": 4, "Assists": 1 },
+            { "Id": 16, "Goals": 1, "Assists": 0, "Goalkeeper": true },
+            { "Id": 10, "Goals": 0, "Assists": 1 },
+            { "Id": 2, "Goals": 2, "Assists": 0 },
+            { "Id": 6, "Goals": 7, "Assists": 0 }
         ]
     },
     {
@@ -202,60 +76,18 @@
         "LocalScore": 5,
         "AwayScore": 3,
         "LocalPlayers": [
-            {
-                "Id": 1,
-                "Goals": 3,
-                "Assists": 1
-            },
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 1,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 23,
-                "Goals": 1,
-                "Assists": 1
-            },
-            {
-                "Id": 8,
-                "Goals": 0,
-                "Assists": 0
-            },
-            {
-                "Id": 20,
-                "Goals": 1,
-                "Assists": 2
-            }
+            { "Id": 1, "Goals": 3, "Assists": 1 },
+            { "Id": 16, "Goals": 0, "Assists": 1, "Goalkeeper": true },
+            { "Id": 23, "Goals": 1, "Assists": 1 },
+            { "Id": 8, "Goals": 0, "Assists": 0 },
+            { "Id": 20, "Goals": 1, "Assists": 2 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 10,
-                "Goals": 0,
-                "Assists": 0
-            },
-            {
-                "Id": 18,
-                "Goals": 0,
-                "Assists": 0
-            },
-            {
-                "Id": 13,
-                "Goals": 0,
-                "Assists": 1,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 11,
-                "Goals": 1,
-                "Assists": 1
-            },
-            {
-                "Id": 15,
-                "Goals": 2,
-                "Assists": 0
-            }
+            { "Id": 10, "Goals": 0, "Assists": 0 },
+            { "Id": 18, "Goals": 0, "Assists": 0 },
+            { "Id": 13, "Goals": 0, "Assists": 1, "Goalkeeper": true },
+            { "Id": 11, "Goals": 1, "Assists": 1 },
+            { "Id": 15, "Goals": 2, "Assists": 0 }
         ]
     },
     {
@@ -267,60 +99,18 @@
         "LocalScore": 6,
         "AwayScore": 8,
         "LocalPlayers": [
-            {
-                "Id": 1,
-                "Goals": 2,
-                "Assists": 2
-            },
-            {
-                "Id": 11,
-                "Goals": 3,
-                "Assists": 1
-            },
-            {
-                "Id": 18,
-                "Goals": 0,
-                "Assists": 1
-            },
-            {
-                "Id": 22,
-                "Goals": 1,
-                "Assists": 2
-            },
-            {
-                "Id": 13,
-                "Goals": 1,
-                "Assists": 2,
-                "Goalkeeper": true
-            }
+            { "Id": 1, "Goals": 2, "Assists": 2 },
+            { "Id": 11, "Goals": 3, "Assists": 1 },
+            { "Id": 18, "Goals": 0, "Assists": 1 },
+            { "Id": 22, "Goals": 1, "Assists": 2 },
+            { "Id": 13, "Goals": 1, "Assists": 2, "Goalkeeper": true }
         ],
         "AwayPlayers": [
-            {
-                "Id": 19,
-                "Goals": 1,
-                "Assists": 2
-            },
-            {
-                "Id": 8,
-                "Goals": 3,
-                "Assists": 2
-            },
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 2,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 10,
-                "Goals": 0,
-                "Assists": 0
-            },
-            {
-                "Id": 24,
-                "Goals": 4,
-                "Assists": 1
-            }
+            { "Id": 19, "Goals": 1, "Assists": 2 },
+            { "Id": 8, "Goals": 3, "Assists": 2 },
+            { "Id": 16, "Goals": 0, "Assists": 2, "Goalkeeper": true },
+            { "Id": 10, "Goals": 0, "Assists": 0 },
+            { "Id": 24, "Goals": 4, "Assists": 1 }
         ]
     },
     {
@@ -332,60 +122,18 @@
         "LocalScore": 1,
         "AwayScore": 7,
         "LocalPlayers": [
-            {
-                "Id": 10,
-                "Goals": 0,
-                "Assists": 0
-            },
-            {
-                "Id": 24,
-                "Goals": 0,
-                "Assists": 0
-            },
-            {
-                "Id": 11,
-                "Goals": 1,
-                "Assists": 0
-            },
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 8,
-                "Goals": 0,
-                "Assists": 0
-            }
+            { "Id": 10, "Goals": 0, "Assists": 0 },
+            { "Id": 24, "Goals": 0, "Assists": 0 },
+            { "Id": 11, "Goals": 1, "Assists": 0 },
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 8, "Goals": 0, "Assists": 0 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 1,
-                "Goals": 1,
-                "Assists": 3
-            },
-            {
-                "Id": 22,
-                "Goals": 2,
-                "Assists": 2
-            },
-            {
-                "Id": 25,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 19,
-                "Goals": 1,
-                "Assists": 0
-            },
-            {
-                "Id": 6,
-                "Goals": 3,
-                "Assists": 2
-            }
+            { "Id": 1, "Goals": 1, "Assists": 3 },
+            { "Id": 22, "Goals": 2, "Assists": 2 },
+            { "Id": 25, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 19, "Goals": 1, "Assists": 0 },
+            { "Id": 6, "Goals": 3, "Assists": 2 }
         ]
     },
     {
@@ -397,60 +145,18 @@
         "LocalScore": 6,
         "AwayScore": 5,
         "LocalPlayers": [
-            {
-                "Id": 11,
-                "Goals": 1,
-                "Assists": 0
-            },
-            {
-                "Id": 22,
-                "Goals": 2,
-                "Assists": 0
-            },
-            {
-                "Id": 25,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 19,
-                "Goals": 0,
-                "Assists": 3
-            },
-            {
-                "Id": 6,
-                "Goals": 3,
-                "Assists": 0
-            }
+            { "Id": 11, "Goals": 1, "Assists": 0 },
+            { "Id": 22, "Goals": 2, "Assists": 0 },
+            { "Id": 25, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 19, "Goals": 0, "Assists": 3 },
+            { "Id": 6, "Goals": 3, "Assists": 0 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 10,
-                "Goals": 0,
-                "Assists": 0
-            },
-            {
-                "Id": 24,
-                "Goals": 0,
-                "Assists": 3
-            },
-            {
-                "Id": 1,
-                "Goals": 3,
-                "Assists": 2
-            },
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 8,
-                "Goals": 2,
-                "Assists": 0
-            }
+            { "Id": 10, "Goals": 0, "Assists": 0 },
+            { "Id": 24, "Goals": 0, "Assists": 3 },
+            { "Id": 1, "Goals": 3, "Assists": 2 },
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 8, "Goals": 2, "Assists": 0 }
         ]
     },
     {
@@ -461,60 +167,18 @@
         "LocalScore": 15,
         "AwayScore": 10,
         "LocalPlayers": [
-            {
-                "Id": 25,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 22,
-                "Goals": 4,
-                "Assists": 5
-            },
-            {
-                "Id": 6,
-                "Goals": 4,
-                "Assists": 5
-            },
-            {
-                "Id": 11,
-                "Goals": 4,
-                "Assists": 2
-            },
-            {
-                "Id": 14,
-                "Goals": 3,
-                "Assists": 1
-            }
+            { "Id": 25, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 22, "Goals": 4, "Assists": 5 },
+            { "Id": 6, "Goals": 4, "Assists": 5 },
+            { "Id": 11, "Goals": 4, "Assists": 2 },
+            { "Id": 14, "Goals": 3, "Assists": 1 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 24,
-                "Goals": 1,
-                "Assists": 4
-            },
-            {
-                "Id": 1,
-                "Goals": 3,
-                "Assists": 4
-            },
-            {
-                "Id": 10,
-                "Goals": 1,
-                "Assists": 0
-            },
-            {
-                "Id": 8,
-                "Goals": 5,
-                "Assists": 2
-            }
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 24, "Goals": 1, "Assists": 4 },
+            { "Id": 1, "Goals": 3, "Assists": 4 },
+            { "Id": 10, "Goals": 1, "Assists": 0 },
+            { "Id": 8, "Goals": 5, "Assists": 2 }
         ]
     },
     {
@@ -526,62 +190,18 @@
         "LocalScore": 9,
         "AwayScore": 10,
         "LocalPlayers": [
-            {
-                "Id": 6,
-                "Goals": 4,
-                "Assists": 2
-            },
-            {
-                "Id": 11,
-                "Goals": 2,
-                "Assists": 2
-            },
-            {
-                "Id": 10,
-                "Goals": 1,
-                "Assists": 1
-            },
-            {
-                "Id": 8,
-                "Goals": 0,
-                "Assists": 1,
-                "Swap": true
-            },
-            {
-                "Id": 16,
-                "Goals": 1,
-                "Assists": 0,
-                "Goalkeeper": true
-            }
+            { "Id": 6, "Goals": 4, "Assists": 2 },
+            { "Id": 11, "Goals": 2, "Assists": 2 },
+            { "Id": 10, "Goals": 1, "Assists": 1 },
+            { "Id": 8, "Goals": 0, "Assists": 1, "Swap": true },
+            { "Id": 16, "Goals": 1, "Assists": 0, "Goalkeeper": true }
         ],
         "AwayPlayers": [
-            {
-                "Id": 1,
-                "Goals": 3,
-                "Assists": 2
-            },
-            {
-                "Id": 4,
-                "Goals": 4,
-                "Assists": 2
-            },
-            {
-                "Id": 13,
-                "Goals": 0,
-                "Assists": 1,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 14,
-                "Goals": 1,
-                "Assists": 2
-            },
-            {
-                "Id": 9,
-                "Goals": 3,
-                "Assists": 1,
-                "Swap": true
-            }
+            { "Id": 1, "Goals": 3, "Assists": 2 },
+            { "Id": 4, "Goals": 4, "Assists": 2 },
+            { "Id": 13, "Goals": 0, "Assists": 1, "Goalkeeper": true },
+            { "Id": 14, "Goals": 1, "Assists": 2 },
+            { "Id": 9, "Goals": 3, "Assists": 1, "Swap": true }
         ]
     },
     {
@@ -593,60 +213,18 @@
         "LocalScore": 7,
         "AwayScore": 6,
         "LocalPlayers": [
-            {
-                "Id": 13,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 10,
-                "Goals": 1,
-                "Assists": 0
-            },
-            {
-                "Id": 11,
-                "Goals": 1,
-                "Assists": 1
-            },
-            {
-                "Id": 6,
-                "Goals": 2,
-                "Assists": 3
-            },
-            {
-                "Id": 24,
-                "Goals": 3,
-                "Assists": 1
-            }
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 10, "Goals": 1, "Assists": 0 },
+            { "Id": 11, "Goals": 1, "Assists": 1 },
+            { "Id": 6, "Goals": 2, "Assists": 3 },
+            { "Id": 24, "Goals": 3, "Assists": 1 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 9,
-                "Goals": 2,
-                "Assists": 1
-            },
-            {
-                "Id": 1,
-                "Goals": 2,
-                "Assists": 3
-            },
-            {
-                "Id": 4,
-                "Goals": 1,
-                "Assists": 2
-            },
-            {
-                "Id": 8,
-                "Goals": 1,
-                "Assists": 0
-            }
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 9, "Goals": 2, "Assists": 1 },
+            { "Id": 1, "Goals": 2, "Assists": 3 },
+            { "Id": 4, "Goals": 1, "Assists": 2 },
+            { "Id": 8, "Goals": 1, "Assists": 0 }
         ]
     },
     {
@@ -658,61 +236,85 @@
         "LocalScore": 9,
         "AwayScore": 11,
         "LocalPlayers": [
-            {
-                "Id": 19,
-                "Goals": 3,
-                "Assists": 3
-            },
-            {
-                "Id": 24,
-                "Goals": 5,
-                "Assists": 0
-            },
-            {
-                "Id": 10,
-                "Goals": 0,
-                "Assists": 2
-            },
-            {
-                "Id": 16,
-                "Goals": 0,
-                "Assists": 2,
-                "Goalkeeper": true,
-                "PenaltiesSaved": 1
-            },
-            {
-                "Id": 14,
-                "Goals": 1,
-                "Assists": 0
-            }
+            { "Id": 19, "Goals": 3, "Assists": 3 },
+            { "Id": 24, "Goals": 5, "Assists": 0 },
+            { "Id": 10, "Goals": 0, "Assists": 2 },
+            { "Id": 16, "Goals": 0, "Assists": 2, "Goalkeeper": true, "PenaltiesSaved": 1 },
+            { "Id": 14, "Goals": 1, "Assists": 0 }
         ],
         "AwayPlayers": [
-            {
-                "Id": 1,
-                "Goals": 4,
-                "Assists": 3
-            },
-            {
-                "Id": 11,
-                "Goals": 0,
-                "Assists": 4
-            },
-            {
-                "Id": 2,
-                "Goals": 2,
-                "Assists": 0
-            },
-            {
-                "Id": 17,
-                "Goals": 1,
-                "Assists": 0,
-                "Goalkeeper": true
-            },
-            {
-                "Id": 6,
-                "Goals": 3,
-                "Assists": 2
-            }
+            { "Id": 1, "Goals": 4, "Assists": 3 },
+            { "Id": 11, "Goals": 0, "Assists": 4 },
+            { "Id": 2, "Goals": 2, "Assists": 0 },
+            { "Id": 17, "Goals": 1, "Assists": 0, "Goalkeeper": true },
+            { "Id": 6, "Goals": 3, "Assists": 2 }
+        ]
+    },
+    { "Id": 13, "Date": "21/11/2020", "Text": "Parón navideño" },
+    {
+        "Id": 14,
+        "Date": "16/01/2021",
+        "MVP": 16,
+        "Local": "red",
+        "Away": "blue",
+        "LocalScore": 8,
+        "AwayScore": 9,
+        "LocalPlayers": [
+            { "Id": 19, "Goals": 5, "Assists": 0 },
+            { "Text": "Y otros chavules..." }
+        ],
+        "AwayPlayers": [
+            { "Id": 1, "Goals": 2, "Assists": 3 },
+            { "Id": 6, "Goals": 4, "Assists": 0 },
+            { "Id": 11, "Goals": 2, "Assists": 1 },
+            { "Id": 17, "Goals": 1, "Assists": 0 },
+            { "Id": 16, "Goals": 0, "Assists": 2, "Goalkeeper": true, "PenaltiesSaved": 1 }
+        ]
+    },
+    {
+        "Id": 15,
+        "Date": "23/01/2021",
+        "MVP": 16,
+        "Local": "blue",
+        "Away": "red",
+        "LocalScore": 11,
+        "AwayScore": 9,
+        "LocalPlayers": [
+            { "Id": 16, "Goals": 1, "Assists": 0, "Goalkeeper": true },
+            { "Id": 17, "Goals": 3, "Assists": 5 },
+            { "Id": 11, "Goals": 2, "Assists": 2 },
+            { "Id": 24, "Goals": 5, "Assists": 2 },
+            { "Id": 26, "Goals": 0, "Assists": 0 }
+        ],
+        "AwayPlayers": [
+            { "Id": 1, "Goals": 5, "Assists": 4 },
+            { "Id": 19, "Goals": 3, "Assists": 2 },
+            { "Id": 2, "Goals": 1, "Assists": 0 },
+            { "Id": 14, "Goals": 0, "Assists": 0 },
+            { "Text": "Y otros chavules..." }
+        ]
+    },
+    {
+        "Id": 16,
+        "Date": "30/01/2021",
+        "MVP": 11,
+        "Local": "red",
+        "Away": "blue",
+        "LocalScore": 13,
+        "AwayScore": 15,
+        "LocalPlayers": [
+            { "Id": 17, "Goals": 0, "Assists": 3, "Goalkeeper": true },
+            { "Id": 19, "Goals": 5, "Assists": 3 },
+            { "Id": 24, "Goals": 4, "Assists": 3 },
+            { "Id": 2, "Goals": 0, "Assists": 0 },
+            { "Id": 15, "Goals": 3, "Assists": 2 }
+        ],
+        "AwayPlayers": [
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 6, "Goals": 7, "Assists": 4 },
+            { "Id": 1, "Goals": 5, "Assists": 5 },
+            { "Id": 14, "Goals": 0, "Assists": 0 },
+            { "Id": 11, "Goals": 3, "Assists": 4 }
         ]
     }
 ]

@@ -277,5 +277,16 @@
         "Assists": 0,
         "MVPs": 0,
         "PenaltiesSaved": 0
+    },
+    {
+        "Id": 26,
+        "Name": "Francis",
+        "Goalkeeper": false,
+        "Wins": 0,
+        "Draws": 0,
+        "Defeats": 0,
+        "Goals": 0,
+        "Assists": 0,
+        "MVPs": 0
     }
 ]
