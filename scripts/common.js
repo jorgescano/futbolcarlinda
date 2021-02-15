@@ -97,12 +97,14 @@ viewManagement.common = {
         var matches = JSON.parse(JSON.stringify(viewManagement.common.dataBase.Matches));
         matches.forEach((match, i, a) => {
             match.Date = viewManagement.common.stringToDate(match.Date);
-            match.LocalPlayers.concat(match.AwayPlayers).forEach((player, i, a) => {
-                var storedPlayer = players.find((e) => e.Id == player.Id);
-                if (!viewManagement.common.isNullOrEmpty(storedPlayer)) {
-                    player.Name = storedPlayer.Name;
-                }
-            });
+            if (match.LocalPlayers != null && match.AwayPlayers != null) {
+                match.LocalPlayers.concat(match.AwayPlayers).forEach((player, i, a) => {
+                    var storedPlayer = players.find((e) => e.Id == player.Id);
+                    if (!viewManagement.common.isNullOrEmpty(storedPlayer)) {
+                        player.Name = storedPlayer.Name;
+                    }
+                });
+            }
         });
 
         return matches;
