@@ -49,7 +49,7 @@ viewManagement.common = {
         var players = JSON.parse(JSON.stringify(viewManagement.common.dataBase.Players));
         var matches = JSON.parse(JSON.stringify(viewManagement.common.dataBase.Matches));
         players.forEach((player, i, a) => {
-            matches.forEach((match, i, a) => {
+            matches.filter(e => e.Text == null).forEach((match, i, a) => {
                 var localPlayer = match.LocalPlayers.find((e) => e.Id == player.Id);
                 var awayPlayer = match.AwayPlayers.find((e) => e.Id == player.Id);
                 var matchPlayer = !viewManagement.common.isNullOrEmpty(localPlayer) ? localPlayer : awayPlayer;
