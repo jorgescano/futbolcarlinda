@@ -17,6 +17,10 @@ viewManagement.matches = {
             if (v.Text != null) {
                 cardBody.addClass("card-body-nomatch");
                 var cardText = $('<span/>', { class: "text-shadow", text: v.Text });
+                if (v.Icon != null) {
+                    var cardTextClass = $('<i/>', { class: "fas " + v.Icon + " ml-2" });
+                    cardText.append(cardTextClass);
+                }
                 cardBody.append(cardText);
             } else {
                 var cardTitle = $('<div/>', { id: 'card-title-' + v.Id, class: 'match-title' });
