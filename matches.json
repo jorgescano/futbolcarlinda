@@ -250,7 +250,7 @@
             { "Id": 6, "Goals": 3, "Assists": 2 }
         ]
     },
-    { "Id": 13, "Date": "21/11/2020", "Text": "Parón navideño" },
+    { "Id": 13, "Date": "21/11/2020", "Text": "Parón navideño", "Icon": "fa-candy-cane" },
     {
         "Id": 14,
         "Date": "16/01/2021",
@@ -315,6 +315,30 @@
             { "Id": 1, "Goals": 5, "Assists": 5 },
             { "Id": 14, "Goals": 0, "Assists": 0 },
             { "Id": 11, "Goals": 3, "Assists": 4 }
+        ]
+    },
+    { "Id": 17, "Date": "30/01/2021", "Text": "Parón por COVID-19", "Icon": "fa-virus" },
+    {
+        "Id": 18,
+        "Date": "20/02/2021",
+        "MVP": 11,
+        "Local": "blue",
+        "Away": "red",
+        "LocalScore": 5,
+        "AwayScore": 12,
+        "LocalPlayers": [
+            { "Id": 18, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 6, "Goals": 3, "Assists": 1 },
+            { "Id": 22, "Goals": 1, "Assists": 2 },
+            { "Id": 14, "Goals": 0, "Assists": 1 },
+            { "Id": 15, "Goals": 1, "Assists": 1 }
+        ],
+        "AwayPlayers": [
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 1, "Goals": 5, "Assists": 2 },
+            { "Id": 11, "Goals": 2, "Assists": 3 },
+            { "Id": 19, "Goals": 3, "Assists": 3 },
+            { "Id": 4, "Goals": 2, "Assists": 4 }
         ]
     }
 ]
