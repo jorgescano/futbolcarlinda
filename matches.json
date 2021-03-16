@@ -340,5 +340,28 @@
             { "Id": 19, "Goals": 3, "Assists": 3 },
             { "Id": 4, "Goals": 2, "Assists": 4 }
         ]
+    },
+    {
+        "Id": 19,
+        "Date": "27/02/2021",
+        "MVP": 13,
+        "Local": "red",
+        "Away": "blue",
+        "LocalScore": 7,
+        "AwayScore": 5,
+        "LocalPlayers": [
+            { "Id": 1, "Goals": 2, "Assists": 3 },
+            { "Id": 11, "Goals": 3, "Assists": 1 },
+            { "Id": 17, "Goals": 1, "Assists": 1 },
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 18, "Goals": 1, "Assists": 1 }
+        ],
+        "AwayPlayers": [
+            { "Id": 16, "Goals": 1, "Assists": 0, "Goalkeeper": true },
+            { "Id": 15, "Goals": 0, "Assists": 0 },
+            { "Id": 9, "Goals": 0, "Assists": 0 },
+            { "Id": 4, "Goals": 1, "Assists": 2 },
+            { "Id": 2, "Goals": 0, "Assists": 0 }
+        ]
     }
 ]
