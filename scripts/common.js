@@ -55,10 +55,19 @@ viewManagement.common = {
                 var matchPlayer = !viewManagement.common.isNullOrEmpty(localPlayer) ? localPlayer : awayPlayer;
 
                 if (!viewManagement.common.isNullOrEmpty(matchPlayer)) {
+                    if (player.Wins == null) player.Wins = 0;
+                    if (player.Draws == null) player.Draws = 0;
+                    if (player.Defeats == null) player.Defeats = 0;
+                    if (player.Goals == null) player.Goals = 0;
+                    if (player.Assists == null) player.Assists = 0;
+                    if (player.MVPs == null) player.MVPs = 0;
+                    if (player.Goalkeeper && player.PenaltiesSaved == null) player.PenaltiesSaved = 0;
+
                     player.Goals += matchPlayer.Goals;
                     player.Assists += matchPlayer.Assists;
 
                     if (!viewManagement.common.isNullOrEmpty(matchPlayer.PenaltiesSaved)) {
+                        if (player.PenaltiesSaved == null) player.PenaltiesSaved = 0;
                         player.PenaltiesSaved += matchPlayer.PenaltiesSaved;
                     }
 
