@@ -49,19 +49,21 @@ viewManagement.common = {
         var players = JSON.parse(JSON.stringify(viewManagement.common.dataBase.Players));
         var matches = JSON.parse(JSON.stringify(viewManagement.common.dataBase.Matches));
         players.forEach((player, i, a) => {
+            
+            if (player.Wins == null) player.Wins = 0;
+            if (player.Draws == null) player.Draws = 0;
+            if (player.Defeats == null) player.Defeats = 0;
+            if (player.Goals == null) player.Goals = 0;
+            if (player.Assists == null) player.Assists = 0;
+            if (player.MVPs == null) player.MVPs = 0;
+            if (player.Goalkeeper && player.PenaltiesSaved == null) player.PenaltiesSaved = 0;
+
             matches.filter(e => e.Text == null).forEach((match, i, a) => {
                 var localPlayer = match.LocalPlayers.find((e) => e.Id == player.Id);
                 var awayPlayer = match.AwayPlayers.find((e) => e.Id == player.Id);
                 var matchPlayer = !viewManagement.common.isNullOrEmpty(localPlayer) ? localPlayer : awayPlayer;
 
                 if (!viewManagement.common.isNullOrEmpty(matchPlayer)) {
-                    if (player.Wins == null) player.Wins = 0;
-                    if (player.Draws == null) player.Draws = 0;
-                    if (player.Defeats == null) player.Defeats = 0;
-                    if (player.Goals == null) player.Goals = 0;
-                    if (player.Assists == null) player.Assists = 0;
-                    if (player.MVPs == null) player.MVPs = 0;
-                    if (player.Goalkeeper && player.PenaltiesSaved == null) player.PenaltiesSaved = 0;
 
                     player.Goals += matchPlayer.Goals;
                     player.Assists += matchPlayer.Assists;
