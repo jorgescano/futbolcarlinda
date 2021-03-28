@@ -25,5 +25,6 @@
     { "Id": 24, "Name": "Rafa", "Goalkeeper": false, "Defeats": 1 },
     { "Id": 25, "Name": "Pepe", "Goalkeeper": true, "Wins": 1 },
     { "Id": 26, "Name": "Francis", "Goalkeeper": false },
-    { "Id": 27, "Name": "Dani Jiménez", "Goalkeeper": false }
+    { "Id": 27, "Name": "Dani Jiménez", "Goalkeeper": false },
+    { "Id": 28, "Name": "Josue", "Goalkeeper": false }
 ]
