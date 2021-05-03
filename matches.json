@@ -409,5 +409,28 @@
             { "Id": 24, "Goals": 6, "Assists": 2 },
             { "Id": 10, "Goals": 2, "Assists": 1 }
         ]
+    },
+    {
+        "Id": 22,
+        "Date": "01/05/2021",
+        "MVP": 1,
+        "Local": "blue",
+        "Away": "red",
+        "LocalScore": 10,
+        "AwayScore": 2,
+        "LocalPlayers": [
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 11, "Goals": 2, "Assists": 3 },
+            { "Id": 1, "Goals": 5, "Assists": 4 },
+            { "Id": 14, "Goals": 0, "Assists": 0 },
+            { "Id": 10, "Goals": 3, "Assists": 1 }
+        ],
+        "AwayPlayers": [
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 24, "Goals": 1, "Assists": 1 },
+            { "Id": 8, "Goals": 0, "Assists": 0 },
+            { "Id": 18, "Goals": 0, "Assists": 0 },
+            { "Id": 23, "Goals": 1, "Assists": 0 }
+        ]
     }
 ]
