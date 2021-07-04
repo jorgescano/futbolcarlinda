@@ -236,11 +236,12 @@ $(document).ready(function () {
     var href = window.location.href.indexOf("html") == -1 ? (window.location.href + "/index.html") : window.location.href;
 
     var darkTheme = localStorage.getItem("darkTheme");
-    if (!viewManagement.common.isNullOrEmpty(darkTheme)) {
-        var checked = JSON.parse(darkTheme);
-        $('#switch-theme').prop('checked', checked != false);
-        if (!checked) $("link[href*='dark.css']").remove();
-    }
+    if (viewManagement.common.isNullOrEmpty(darkTheme))
+        darkTheme = true;
+        
+    var checked = JSON.parse(darkTheme);
+    $('#switch-theme').prop('checked', checked != false);
+    if (!checked) $("link[href*='dark.css']").remove();
 
     $(".nav-item-players").click(() => { viewManagement.common.setHref(href, "index") });
     $(".nav-item-matches").click(() => { viewManagement.common.setHref(href, "matches") });
