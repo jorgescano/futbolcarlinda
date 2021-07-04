@@ -432,5 +432,28 @@
             { "Id": 18, "Goals": 0, "Assists": 0 },
             { "Id": 23, "Goals": 1, "Assists": 0 }
         ]
+    },
+    {
+        "Id": 23,
+        "Date": "19/06/2021",
+        "MVP": 29,
+        "Local": "red",
+        "Away": "blue",
+        "LocalScore": 12,
+        "AwayScore": null,
+        "LocalPlayers": [
+            { "Id": 16, "Goals": 1, "Assists": 0, "Goalkeeper": true },
+            { "Id": 1, "Goals": 6, "Assists": 5 },
+            { "Id": 29, "Goals": 1, "Assists": 0 },
+            { "Id": 11, "Goals": 3, "Assists": 3 },
+            { "Id": 14, "Goals": 1, "Assists": 1 }
+        ],
+        "AwayPlayers": [
+            { "Id": 8, "Goals": 0, "Assists": 0 },
+            { "Id": 30, "Goals": 1, "Assists": 0 },
+            { "Id": 2, "Goals": 0, "Assists": 0 },
+            { "Id": 10, "Goals": 1, "Assists": 1 },
+            { "Id": 31, "Goals": 0, "Assists": 0 }
+        ]
     }
 ]
