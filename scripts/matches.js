@@ -31,12 +31,12 @@ viewManagement.matches = {
                 score.append(
                     $('<span/>')
                         .append($('<i/>', { class: 'fas fa-tshirt mr-3 ' + v.Local }))
-                        .append($('<span/>', { text: v.LocalScore }))
+                        .append($('<span/>', { text: v.LocalScore || '?' }))
                 );
                 score.append($('<span/>', { class: 'mx-2', text: '-' }));
                 score.append(
                     $('<span/>')
-                        .append($('<span/>', { text: v.AwayScore }))
+                        .append($('<span/>', { text: v.AwayScore || '?' }))
                         .append($('<i/>', { class: 'fas fa-tshirt ml-3 ' + v.Away }))
                 );
                 cardTitle.append(score);
