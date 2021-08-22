@@ -455,5 +455,51 @@
             { "Id": 10, "Goals": 1, "Assists": 1 },
             { "Id": 31, "Goals": 0, "Assists": 0 }
         ]
+    },
+    {
+        "Id": 24,
+        "Date": "14/08/2021",
+        "MVP": 1,
+        "Local": "blue",
+        "Away": "red",
+        "LocalScore": 0,
+        "AwayScore": 3,
+        "LocalPlayers": [
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 3, "Goals": 0, "Assists": 0 },
+            { "Id": 8, "Goals": 0, "Assists": 0 },
+            { "Id": 14, "Goals": 0, "Assists": 0 },
+            { "Id": 11, "Goals": 0, "Assists": 0 }
+        ],
+        "AwayPlayers": [
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 1, "Goals": 3, "Assists": 0 },
+            { "Id": 32, "Goals": 0, "Assists": 0 },
+            { "Id": 17, "Goals": 0, "Assists": 2 },
+            { "Id": 29, "Goals": 0, "Assists": 0 }
+        ]
+    },
+    {
+        "Id": 25,
+        "Date": "14/08/2021",
+        "MVP": 1,
+        "Local": "red",
+        "Away": "blue",
+        "LocalScore": 5,
+        "AwayScore": 4,
+        "LocalPlayers": [
+            { "Id": 13, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 1, "Goals": 2, "Assists": 1 },
+            { "Id": 32, "Goals": 1, "Assists": 0 },
+            { "Id": 14, "Goals": 1, "Assists": 0 },
+            { "Id": 29, "Goals": 1, "Assists": 0 }
+        ],
+        "AwayPlayers": [
+            { "Id": 16, "Goals": 0, "Assists": 0, "Goalkeeper": true },
+            { "Id": 3, "Goals": 0, "Assists": 0 },
+            { "Id": 8, "Goals": 1, "Assists": 2 },
+            { "Id": 17, "Goals": 1, "Assists": 1 },
+            { "Id": 11, "Goals": 2, "Assists": 1 }
+        ]
     }
 ]

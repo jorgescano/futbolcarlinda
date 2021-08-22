@@ -29,5 +29,6 @@
     { "Id": 28, "Name": "Josue", "Goalkeeper": false },
     { "Id": 29, "Name": "Abraham", "Goalkeeper": false },
     { "Id": 30, "Name": "Juani", "Goalkeeper": false },
-    { "Id": 31, "Name": "Crespo", "Goalkeeper": false }
+    { "Id": 31, "Name": "Crespo", "Goalkeeper": false },
+    { "Id": 32, "Name": "Hugo", "Goalkeeper": false }
 ]
